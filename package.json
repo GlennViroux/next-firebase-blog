@@ -2,21 +2,40 @@
   "name": "next-firebase",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/server/index.js",
+  "engines": {
+    "node": "16"
+  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev:client": "next src/client",
+    "dev:server": "babel src/server --out-dir dist/server --source-maps --watch",
+    "dev": "yarn run dev:client & yarn run dev:server",
+    "build:client": "next build src/client",
+    "build:server": "babel src/server --out-dir dist/server --source-maps",
+    "build": "yarn run build:client && yarn run build:server",
+    "preserve": "yarn run build",
+    "serve": "cross-env NODE_ENV=production firebase serve --only functions,hosting",
+    "predeploy": "rimraf dist/ && yarn run build",
+    "deploy": "cross-env NODE_ENV=production firebase deploy --only functions,hosting",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write"
   },
   "dependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
     "@types/node": "18.16.3",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.3",
+    "cross-env": "^7.0.3",
     "eslint": "8.39.0",
     "eslint-config-next": "13.4.0",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
     "next": "13.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "rimraf": "^5.0.0",
     "typescript": "5.0.4"
   }
 }
