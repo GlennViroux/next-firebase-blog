@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bfd1181-5af0-43c9-b488-d8bde67a9a66" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PMSdyBNffdWGxAq6CIHR2MFJv3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/glenn/projects/blogs/next-firebase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "wsl://Ubuntu-20.04@/home/glenn/.nvm/versions/node/v16.14.0/bin/node",
+    "nodejs_package_manager_path": "\\usr\\bin\\yarn",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "\\\\wsl$\\Ubuntu-20.04\\home\\glenn\\projects\\blogs\\next-firebase\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\glenn\projects\blogs\next-firebase\src\client" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\glenn\projects\blogs\next-firebase\src\client\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev:client">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="wsl://Ubuntu-20.04@/home/glenn/.nvm/versions/node/v16.14.0/bin/node" />
+      <package-manager value="\usr\bin\yarn" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:client" />
+      </scripts>
+      <node-interpreter value="wsl://Ubuntu-20.04@/home/glenn/.nvm/versions/node/v16.14.0/bin/node" />
+      <package-manager value="\usr\bin\yarn" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev:client" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bfd1181-5af0-43c9-b488-d8bde67a9a66" name="Changes" comment="" />
+      <created>1683265549164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683265549164</updated>
+      <workItem from="1683265550477" duration="582000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
